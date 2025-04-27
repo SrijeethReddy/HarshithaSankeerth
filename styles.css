@@ -260,6 +260,78 @@ body {
     padding: 2.5rem;
 }
 
+/* Countdown Timer Styles */
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.countdown-item {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 8px;
+  min-width: 100px;
+  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(155, 107, 158, 0.1);
+}
+
+.countdown-number {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.countdown-label {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.guest-count {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(155, 107, 158, 0.1);
+}
+
+.guest-count p {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  margin: 0;
+  font-weight: 600;
+}
+
+/* Responsive adjustments for countdown */
+@media (max-width: 768px) {
+  .countdown-timer {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .countdown-item {
+    min-width: 80px;
+    padding: 0.75rem;
+  }
+  
+  .countdown-number {
+    font-size: 2rem;
+  }
+  
+  .countdown-label {
+    font-size: 0.9rem;
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .royal-title {

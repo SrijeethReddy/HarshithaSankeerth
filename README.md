@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Royal Wedding RSVP Website
 
 A beautiful, royal-themed RSVP website for a wedding with multiple events. The website allows guests to RSVP for different events and stores responses in Firebase Realtime Database.
@@ -110,3 +111,6 @@ A beautiful, royal-themed RSVP website for a wedding with multiple events. The w
 ## Support
 
 For any issues or questions, please contact the website administrator. 
+=======
+# HarshithaSankeerth
+>>>>>>> fde235da16bac0c6afb25ea2746822a578b4d5e1
