@@ -19,4 +19,4 @@ jobs:
           args: deploy --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-          PROJECT_ID: harshitha-sankeerth-wedding 
+          PROJECT_ID: harshithasankeerth-c9df5 
