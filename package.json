@@ -1,0 +1,25 @@
+{
+  "name": "harshitha-sankeerth-wedding",
+  "version": "1.0.0",
+  "description": "Wedding website for Harshitha and Sankeerth",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build step required for static site'",
+    "test": "echo 'No tests configured'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrijeethReddy/HarshithaSankeerth.git"
+  },
+  "keywords": [
+    "wedding",
+    "website",
+    "static"
+  ],
+  "author": "Srijeeth Reddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SrijeethReddy/HarshithaSankeerth/issues"
+  },
+  "homepage": "https://github.com/SrijeethReddy/HarshithaSankeerth#readme"
+} 
